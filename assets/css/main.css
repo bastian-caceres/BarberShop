@@ -9904,9 +9904,17 @@ ul {
 
 header .container h1 {
   font-family: "Playfair Display", serif;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 900;
   padding-bottom: 150px;
+}
+@media (min-width: 576px) {
+  header .container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 70px;
+    font-weight: 900;
+    padding-bottom: 150px;
+  }
 }
 
 .navbar {
@@ -9968,9 +9976,14 @@ header .container {
 .seccionTexto button {
   background-color: #707070;
   color: #FFFFFF;
-  border-radius: 110px 110px 110px 110px;
-  -moz-border-radius: 110px 110px 110px 110px;
-  -webkit-border-radius: 110px 110px 110px 110px;
+}
+.seccionTexto .posicionBoton {
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .seccionTexto .posicionBoton {
+    text-align: left;
+  }
 }
 .seccionTexto span {
   color: #DE8684;
@@ -10029,11 +10042,18 @@ footer img {
 .paginacion ul li a {
   color: #000000;
 }
+.paginacion ul li a:hover {
+  background-color: darkgray;
+}
 .paginacion .page-item.active .page-link {
-  z-index: 3;
-  color: #fff;
-  background-color: #6C6E70;
-  border-color: #6C6E70;
+  background-color: #000000;
+  border-color: #000000;
+}
+@media (min-width: 576px) {
+  .paginacion .page-item.active .page-link {
+    background-color: #6C6E70;
+    border-color: #6C6E70;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

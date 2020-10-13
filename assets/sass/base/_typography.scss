@@ -1,9 +1,17 @@
 header{
     .container h1 {
         font-family: 'Playfair Display', serif;        
-        font-size: 70px;
+        font-size: 40px;
         font-weight: 900;
         padding-bottom: 150px;
+    }
+    @media (min-width: 576px) {
+        .container h1 {
+            font-family: 'Playfair Display', serif;        
+            font-size: 70px;
+            font-weight: 900;
+            padding-bottom: 150px;
+        }        
     }
 }
 

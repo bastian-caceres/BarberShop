@@ -12,14 +12,26 @@
     }
 
     ul li a {
-        color: #000000;        
+        color: #000000;    
+        &:hover {
+            background-color: darkgray;
+        }    
     }
 
     .page-item.active .page-link {
-        z-index: 3;
-        color: #fff;
-        background-color: #6C6E70;
-        border-color: #6C6E70;
+        // color: #fff;
+        background-color: #000000;
+        border-color: #000000;
     }
+
+    @media (min-width: 576px) {
+        .page-item.active .page-link {
+            // color: #fff;
+            background-color: #6C6E70;
+            border-color: #6C6E70;
+        }    
+    }
+
+    
 
 }

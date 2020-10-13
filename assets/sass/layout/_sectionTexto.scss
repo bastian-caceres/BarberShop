@@ -13,13 +13,20 @@
         color: #222323;
     }
     
-    button{
+    button{        
         background-color: #707070;
         color: $color_blanco;
-        @extend %p;    
-        border-radius: 110px 110px 110px 110px;
-        -moz-border-radius: 110px 110px 110px 110px;
-        -webkit-border-radius: 110px 110px 110px 110px;
+        @extend %p;
+    }
+
+    .posicionBoton{
+        text-align: center;
+    }
+
+    @media (min-width: 576px) {
+        .posicionBoton {
+           text-align: left;
+        }        
     }
 
     span {
