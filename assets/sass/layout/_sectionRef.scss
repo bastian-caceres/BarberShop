@@ -1,0 +1,30 @@
+.sectionRef{
+
+    .imgRedonda {
+        width:150px;
+        height:150px;
+        border-radius:150px;
+    }
+    .sinborde{
+        border: 0px solid ;
+    }
+
+    .centertext{
+        text-align: $center;
+    }
+    @media (min-width: 576px) {
+         .centertext{
+            text-align: $center;
+        }
+    }
+    @media (min-width: 768px) {
+        .centertext{
+           text-align: $center;
+       }
+   }
+   @media (min-width: 992px) {
+    .centertext{
+       text-align: left;
+   }
+}
+}

@@ -1,0 +1,28 @@
+.seccionTexto{
+    h6{
+        font-family: 'Playfair Display', serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #222323;
+    }
+
+    %p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: #222323;
+    }
+    
+    button{
+        background-color: #707070;
+        color: $color_blanco;
+        @extend %p;    
+        border-radius: 110px 110px 110px 110px;
+        -moz-border-radius: 110px 110px 110px 110px;
+        -webkit-border-radius: 110px 110px 110px 110px;
+    }
+
+    span {
+        color: #DE8684;
+    };
+}

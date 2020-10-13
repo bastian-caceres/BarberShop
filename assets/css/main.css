@@ -9915,6 +9915,15 @@ header .container h1 {
   font-weight: 400;
 }
 
+.paginacion {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.navbar {
+  background-color: #000000;
+}
 .navbar img {
   width: 78px;
   height: 45px;
@@ -9959,7 +9968,7 @@ header .container {
 }
 .seccionTexto button {
   background-color: #707070;
-  color: #ffffff;
+  color: #FFFFFF;
   border-radius: 110px 110px 110px 110px;
   -moz-border-radius: 110px 110px 110px 110px;
   -webkit-border-radius: 110px 110px 110px 110px;
@@ -9995,16 +10004,14 @@ header .container {
   }
 }
 
+footer {
+  background-color: #000000;
+}
 footer img {
   width: 122px;
   height: 50px;
 }
 
-.paginacion {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-}
 .paginacion .pagination li:first-child a {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
