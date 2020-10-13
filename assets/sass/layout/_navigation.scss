@@ -1,7 +1,5 @@
 .navbar{
     background-color: #000000;
-    color: #ffffff ;
-
     img{
         width: 78px;
         height: 45px;
@@ -11,18 +9,8 @@
         color: $color_blanco;
     }
 
-    div button span{
-        background-color: rgb(52 58 64);
-        color: $color_blanco;
-    }
-
-    .navbar-dark{
-        color: $color_blanco;
-    }
-
     .colornaranjo{
         color: #DE8684;
     }
-
     
 }

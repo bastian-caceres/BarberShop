@@ -9929,20 +9929,12 @@ header .container h1 {
 
 .navbar {
   background-color: #000000;
-  color: #ffffff;
 }
 .navbar img {
   width: 78px;
   height: 45px;
 }
 .navbar a {
-  color: #FFFFFF;
-}
-.navbar div button span {
-  background-color: #343a40;
-  color: #FFFFFF;
-}
-.navbar .navbar-dark {
   color: #FFFFFF;
 }
 .navbar .colornaranjo {
