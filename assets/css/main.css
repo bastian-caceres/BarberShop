@@ -9915,6 +9915,12 @@ header .container h1 {
   font-weight: 400;
 }
 
+.sectionRef h5 {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
 .paginacion {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -9923,6 +9929,7 @@ header .container h1 {
 
 .navbar {
   background-color: #000000;
+  color: #ffffff;
 }
 .navbar img {
   width: 78px;
@@ -10003,6 +10010,9 @@ header .container {
     text-align: left;
   }
 }
+.sectionRef span {
+  color: #DE8684;
+}
 
 footer {
   background-color: #000000;
@@ -10012,6 +10022,10 @@ footer img {
   height: 50px;
 }
 
+.paginacion {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #E6E7E7;
+}
 .paginacion .pagination li:first-child a {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -10019,6 +10033,15 @@ footer img {
 .paginacion .pagination li:last-child a {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+.paginacion ul li a {
+  color: #000000;
+}
+.paginacion .page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #6C6E70;
+  border-color: #6C6E70;
 }
 
 /*# sourceMappingURL=main.css.map */

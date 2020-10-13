@@ -1,4 +1,6 @@
 .paginacion{
+    border-top: 1px solid rgb(0 0 0 / 10%);
+    background-color: #E6E7E7;
     .pagination li:first-child a {
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
@@ -8,4 +10,16 @@
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
     }
+
+    ul li a {
+        color: #000000;        
+    }
+
+    .page-item.active .page-link {
+        z-index: 3;
+        color: #fff;
+        background-color: #6C6E70;
+        border-color: #6C6E70;
+    }
+
 }

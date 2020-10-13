@@ -1,4 +1,6 @@
 .sectionRef{
+    // border-top : 1px solid rgba(0, 0, 0, 0.125);
+    // border-bottom : 1px solid rgba(0, 0, 0, 0.125);
 
     .imgRedonda {
         width:150px;
@@ -13,18 +15,21 @@
         text-align: $center;
     }
     @media (min-width: 576px) {
-         .centertext{
-            text-align: $center;
-        }
+        .centertext{
+        text-align: $center;
+    }
     }
     @media (min-width: 768px) {
         .centertext{
-           text-align: $center;
-       }
-   }
-   @media (min-width: 992px) {
-    .centertext{
-       text-align: left;
-   }
-}
+        text-align: $center;
+    }
+    }
+    @media (min-width: 992px) {
+        .centertext{
+        text-align: left;
+        }    
+    }
+    span {
+        color: #DE8684;
+    };
 }
